@@ -93,7 +93,7 @@ export default defineNuxtConfig({
   modules: ["nuxt-gtag"],
 
   gtag: {
-    id: "G-45ZCVR2RR8",
+    id: "GTM-WG4LCTF7",
     config: {
       page_title: "BSHouse - Landing page",
     },
