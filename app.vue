@@ -10,6 +10,11 @@
   </div>
 </template>
 
+<script setup lang="ts">
+const { gtag, initialize } = useGtag()
+initialize()
+</script>
+
 <style>
 body {
   margin: 0px;
