@@ -84,7 +84,7 @@ export default defineNuxtConfig({
         },
         { name: "format-detection", content: "+5491136563300" },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/Favicon.png" }],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
     },
   },
 });
