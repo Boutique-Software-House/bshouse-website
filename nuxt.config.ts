@@ -3,8 +3,10 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+
   compatibilityDate: "2024-04-03",
   devtools: { enabled: false },
+
   app: {
     head: {
       title: "Boutique Software House Llc.",
@@ -85,6 +87,15 @@ export default defineNuxtConfig({
         { name: "format-detection", content: "+5491136563300" },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
+    },
+  },
+
+  modules: ["nuxt-gtag"],
+
+  gtag: {
+    id: "G-45ZCVR2RR8",
+    config: {
+      page_title: "BSHouse - Landing page",
     },
   },
 });
