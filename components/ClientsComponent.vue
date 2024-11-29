@@ -1,7 +1,7 @@
 <template>
   <div class="clients">
     <div id="title">
-      <p>We use the latest technologies to make everithing simpler for:</p>
+      <p>We use the latest technologies to make everything simpler for:</p>
       <p>
         Utilizamos las últimas tecnologías para hacerlo todo más sencillo para:
       </p>

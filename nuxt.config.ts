@@ -20,7 +20,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Boutique Software House is a software agency located in Miami USA. We use the latest technologies to make the work everithing simpler for our customers: Mercedes-Benz, Daimler Financial Services and Daimler Trucks",
+            "Boutique Software House is a software agency located in Miami USA. We use the latest technologies to make the work everything simpler for our customers: Mercedes-Benz, Daimler Financial Services and Daimler Trucks",
         },
         {
           hid: "og:title",
@@ -51,7 +51,7 @@ export default defineNuxtConfig({
           hid: "og:description",
           name: "og:description",
           content:
-            "Boutique Software House is a software agency located in Miami USA. We use the latest technologies to make the work everithing simpler for our customers: Mercedes-Benz, Daimler Financial Services and Daimler Trucks",
+            "Boutique Software House is a software agency located in Miami USA. We use the latest technologies to make the work everything simpler for our customers: Mercedes-Benz, Daimler Financial Services and Daimler Trucks",
         },
         {
           hid: "twitter:card",
@@ -77,7 +77,7 @@ export default defineNuxtConfig({
           hid: "twitter:description",
           name: "twitter:description",
           content:
-            "Boutique Software House is a software agency located in Miami USA. We use the latest technologies to make the work everithing simpler for our customers. Mercedes-Benz, Daimler Financial Services and Daimler Trucks",
+            "Boutique Software House is a software agency located in Miami USA. We use the latest technologies to make the work everything simpler for our customers. Mercedes-Benz, Daimler Financial Services and Daimler Trucks",
         },
         {
           hid: "twitter:image",
