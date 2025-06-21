@@ -131,14 +131,23 @@ export class EmailService {
     try {
       const backendEndpoint = '/api/contact'
       
-      console.log('Enviando datos a la API:', formData)
+      // Obtener el idioma actual del usuario
+      const currentLanguage = localStorage.getItem('locale') || 'es'
+      
+      // Agregar el idioma a los datos del formulario
+      const dataWithLanguage = {
+        ...formData,
+        language: currentLanguage
+      }
+      
+      console.log('Enviando datos a la API:', dataWithLanguage)
       
       const response = await fetch(backendEndpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(dataWithLanguage)
       })
       
       console.log('Respuesta de la API:', response.status, response.statusText)
