@@ -1,102 +1,51 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  future: {
-    compatibilityVersion: 4,
-  },
+  devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
 
-  compatibilityDate: "2024-04-03",
-  devtools: { enabled: false },
-
-  app: {
-    head: {
-      title: "Boutique Software House Llc.",
-      htmlAttrs: {
-        lang: "en",
-      },
-      meta: [
-        { charset: "utf-8" },
-        { name: "viewport", content: "width=device-width, initial-scale=1" },
-        {
-          hid: "description",
-          name: "description",
-          content:
-            "Boutique Software House is a software agency located in Miami USA. We use the latest technologies to make the work everything simpler for our customers: Mercedes-Benz, Daimler Financial Services and Daimler Trucks",
-        },
-        {
-          hid: "og:title",
-          name: "og:title",
-          content: "bshouse.io",
-        },
-        {
-          hid: "og:url",
-          name: "og:url",
-          content: "https://bshouse.io",
-        },
-        {
-          hid: "og:image",
-          name: "og:image",
-          content: "https://bshouse.io/favicon.png",
-        },
-        {
-          hid: "og:type",
-          name: "og:type",
-          content: "website",
-        },
-        {
-          hid: "og:site_name",
-          name: "og:site_name",
-          content: "bshouse.io",
-        },
-        {
-          hid: "og:description",
-          name: "og:description",
-          content:
-            "Boutique Software House is a software agency located in Miami USA. We use the latest technologies to make the work everything simpler for our customers: Mercedes-Benz, Daimler Financial Services and Daimler Trucks",
-        },
-        {
-          hid: "twitter:card",
-          name: "twitter:card",
-          content: "summary", // Can be "summary","summary_large_image","app","player"
-        },
-        {
-          hid: "twitter:creator",
-          name: "twitter:creator",
-          content: "@sebabromberg",
-        },
-        {
-          hid: "twitter:url",
-          name: "twitter:url",
-          content: "https://bshouse.io",
-        },
-        {
-          hid: "twitter:title",
-          name: "twitter:title",
-          content: "bshouse.io",
-        },
-        {
-          hid: "twitter:description",
-          name: "twitter:description",
-          content:
-            "Boutique Software House is a software agency located in Miami USA. We use the latest technologies to make the work everything simpler for our customers. Mercedes-Benz, Daimler Financial Services and Daimler Trucks",
-        },
-        {
-          hid: "twitter:image",
-          name: "twitter:image",
-          content: "https://bshouse.io/favicon.png",
-        },
-        { name: "format-detection", content: "+5491136563300" },
-      ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
-    },
-  },
-
-  modules: ["nuxt-gtag"],
+  modules: [
+    'nuxt-gtag'
+  ],
 
   gtag: {
     enabled: true,
     id: "GTM-WG4LCTF7",
     config: {
-      page_title: "BSHouse - Landing page",
+      page_title: "Boutique Software House - Metodología de Prototipado",
     },
   },
-});
+
+  app: {
+    head: {
+      title: 'Boutique Software House - Transformando ideas en experiencias digitales',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { 
+          name: 'description', 
+          content: 'Somos una boutique de software que elimina el gap entre expectativas y realidad. Nuestra metodología única de prototipado te permite ver exactamente lo que vas a recibir antes de escribir una sola línea de código.' 
+        },
+        { name: 'keywords', content: 'desarrollo de software, prototipado, UX/UI, aplicaciones móviles, aplicaciones web, sistemas empresariales' },
+        { property: 'og:title', content: 'Boutique Software House' },
+        { property: 'og:description', content: 'Transformando ideas en experiencias digitales con metodología de prototipado única' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://bshouse.io' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Boutique Software House' },
+        { name: 'twitter:description', content: 'Transformando ideas en experiencias digitales' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap' }
+      ]
+    }
+  },
+
+  compatibilityDate: '2025-06-19',
+
+  build: {
+    transpile: ['vee-validate']
+  }
+})

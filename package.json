@@ -10,8 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "^8.0.0",
+    "caniuse-lite": "^1.0.30001724",
     "nuxt": "^3.12.4",
     "nuxt-gtag": "^2.1.0",
-    "vue": "latest"
+    "vee-validate": "^4.15.1",
+    "vue": "latest",
+    "yup": "^1.6.1"
   }
 }

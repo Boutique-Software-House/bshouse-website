@@ -1,0 +1,306 @@
+{
+  "nav": {
+    "methodology": "Metodología",
+    "services": "Servicios",
+    "caseStudies": "Casos de Éxito",
+    "technologies": "Tecnologías",
+    "contact": "Contacto",
+    "startProject": "Comenzar Proyecto"
+  },
+  "hero": {
+    "title": "Transformamos ideas en",
+    "highlight": "experiencias digitales",
+    "subtitle": "que superan expectativas",
+    "description": "Somos una boutique de software que elimina el gap entre expectativas y realidad. Nuestra metodología única de previsualización te permite ver exactamente lo que vas a recibir antes de escribir una sola línea de código.",
+    "ctaPrimary": "Comenzar Proyecto",
+    "ctaSecondary": "Ver Metodología",
+    "stats": {
+      "satisfaction": "Satisfacción Cliente",
+      "surprises": "Sorpresas",
+      "iterations": "Iteraciones"
+    }
+  },
+  "methodology": {
+    "title": "Nuestra Metodología Única",
+    "subtitle": "Eliminamos el gap entre expectativas y realidad con prototipos interactivos que te permiten validar antes de desarrollar",
+    "steps": {
+      "discovery": {
+        "title": "Descubrimiento & Ideación",
+        "description": "Entendemos tus necesidades, objetivos y visión del proyecto para crear la estrategia perfecta.",
+        "benefits": {
+          "requirement": "Análisis profundo de requerimientos",
+          "analysis": "Definición de objetivos claros",
+          "planning": "Estrategia de UX/UI"
+        }
+      },
+      "design": {
+        "title": "Diseño de Prototipos",
+        "description": "Creamos maquetas interactivas detalladas que muestran exactamente cómo funcionará tu producto.",
+        "benefits": {
+          "ux": "Prototipos clickeables",
+          "prototyping": "Flujos de usuario completos",
+          "feedback": "Validación temprana"
+        }
+      },
+      "development": {
+        "title": "Desarrollo & Entrega",
+        "description": "Trabajamos contigo para refinar cada detalle hasta que estés 100% satisfecho con el resultado.",
+        "benefits": {
+          "agile": "Desarrollo ágil",
+          "quality": "Calidad garantizada",
+          "testing": "Testing continuo"
+        }
+      },
+      "deployment": {
+        "title": "Lanzamiento & Soporte",
+        "description": "Una vez aprobado el prototipo, desarrollamos el producto final con total confianza.",
+        "benefits": {
+          "launch": "Despliegue eficiente",
+          "monitoring": "Monitoreo de rendimiento",
+          "support": "Soporte continuo"
+        }
+      }
+    },
+    "highlight": {
+      "title": "¿Por qué es diferente?",
+      "description": "Mientras otros desarrollan a ciegas, nosotros creamos prototipos interactivos que te permiten ver, tocar y validar cada funcionalidad antes del desarrollo. Esto significa cero sorpresas y 100% satisfacción.",
+      "metrics": {
+        "developmentTime": "Menos tiempo de desarrollo",
+        "clarity": "Claridad en expectativas",
+        "iterations": "Iteraciones sin costo"
+      }
+    }
+  },
+  "services": {
+    "title": "Servicios Especializados",
+    "subtitle": "Ofrecemos soluciones completas de desarrollo con nuestra metodología única de previsualización que garantiza resultados excepcionales",
+    "deliverables": "Entregables",
+    "mobile": {
+      "title": "Desarrollo Móvil",
+      "description": "Creamos aplicaciones móviles nativas e híbridas que ofrecen experiencias excepcionales en iOS y Android.",
+      "features": {
+        "native": "Desarrollo nativo iOS y Android",
+        "flutter": "Aplicaciones nativas con Flutter o React Native",
+        "performance": "Optimización de rendimiento",
+        "integration": "Integración con APIs y servicios"
+      },
+      "deliverables": {
+        "appStore": "App Store",
+        "playStore": "Google Play",
+        "sourceCode": "Código Fuente",
+        "documentation": "Documentación"
+      }
+    },
+    "web": {
+      "title": "Desarrollo Web",
+      "description": "Construimos aplicaciones web modernas, responsivas y escalables que impulsan tu presencia digital.",
+      "features": {
+        "pwa": "Aplicaciones web progresivas (PWA)",
+        "fullstack": "Desarrollo frontend y backend",
+        "seo": "Optimización SEO y rendimiento",
+        "integration": "Integración con sistemas existentes"
+      },
+      "deliverables": {
+        "webApp": "Aplicación Web",
+        "admin": "Panel Admin",
+        "api": "API REST",
+        "hosting": "Hosting"
+      }
+    },
+    "enterprise": {
+      "title": "Sistemas Empresariales",
+      "description": "Desarrollamos soluciones a medida que optimizan procesos empresariales y mejoran la eficiencia operativa.",
+      "features": {
+        "analysis": "Análisis de procesos empresariales",
+        "custom": "Desarrollo de sistemas a medida",
+        "legacy": "Integración con sistemas legacy",
+        "automation": "Automatización de procesos"
+      },
+      "deliverables": {
+        "system": "Sistema",
+        "manuals": "Manuales",
+        "training": "Capacitación",
+        "support": "Soporte"
+      }
+    },
+    "design": {
+      "title": "Diseño UX/UI",
+      "description": "Creamos interfaces intuitivas y atractivas que mejoran la experiencia del usuario.",
+      "features": {
+        "pixelPerfect": "Pixel perfect",
+        "wireframes": "Wireframes y mockups",
+        "prototypes": "Prototipos interactivos",
+        "branding": "Imagen institucional"
+      },
+      "deliverables": {
+        "research": "Research",
+        "wireframes": "Wireframes",
+        "prototype": "Prototipo",
+        "designSystem": "Design System"
+      }
+    },
+    "consulting": {
+      "title": "Consultoría Digital",
+      "description": "Asesoramos en estrategia digital, transformación tecnológica y optimización de procesos.",
+      "features": {
+        "audit": "Auditoría tecnológica",
+        "roadmap": "Roadmap digital",
+        "optimization": "Optimización de procesos",
+        "training": "Capacitación de equipos"
+      },
+      "deliverables": {
+        "audit": "Auditoría",
+        "strategy": "Estrategia",
+        "implementation": "Implementación",
+        "followUp": "Seguimiento"
+      }
+    },
+    "maintenance": {
+      "title": "Mantenimiento & Soporte",
+      "description": "Ofrecemos servicios continuos de mantenimiento, actualizaciones y soporte técnico.",
+      "features": {
+        "monitoring": "Monitoreo 24/7",
+        "security": "Actualizaciones de seguridad",
+        "optimization": "Optimización continua",
+        "support": "Soporte técnico"
+      },
+      "deliverables": {
+        "monitoring": "Monitoreo",
+        "updates": "Updates",
+        "support": "Soporte",
+        "optimization": "Optimización"
+      }
+    },
+    "cta": {
+      "title": "¿No encuentras lo que buscas?",
+      "description": "Cada proyecto es único. Contáctanos para discutir tus necesidades específicas y crear una solución personalizada que se adapte perfectamente a tu visión.",
+      "button": "Consulta Personalizada"
+    }
+  },
+  "caseStudies": {
+    "title": "Casos de Éxito",
+    "subtitle": "Proyectos que demuestran cómo nuestra metodología de previsualización transforma ideas en soluciones exitosas",
+    "cta": {
+      "title": "¿Quieres ser nuestro próximo caso de éxito?",
+      "description": "Nuestra metodología de previsualización ha ayudado a decenas de empresas a transformar sus ideas en productos exitosos. ¿Estás listo para el siguiente?",
+      "button": "Comenzar Mi Proyecto"
+    }
+  },
+  "technologies": {
+    "title": "Stack Tecnológico",
+    "subtitle": "Utilizamos las últimas tecnologías y herramientas que mejor se adapten al problema particular que se debe resolver en cada cliente",
+    "experience": "Experiencia",
+    "categories": {
+      "mobile": {
+        "title": "Desarrollo Móvil",
+        "description": "Tecnologías nativas e híbridas para iOS y Android"
+      },
+      "web": {
+        "title": "Desarrollo Web",
+        "description": "Frameworks y herramientas para aplicaciones web modernas"
+      },
+      "database": {
+        "title": "Bases de Datos",
+        "description": "Sistemas de almacenamiento y gestión de datos"
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Infraestructura y herramientas de despliegue"
+      }
+    },
+    "highlight": {
+      "title": "¿Por qué estas tecnologías?",
+      "description": "Seleccionamos cuidadosamente cada tecnología basándonos en su madurez, rendimiento y capacidad de escalar. Esto demuestra que realmente entendemos las necesidades del cliente y seleccionamos las herramientas más apropiadas para cada situación específica. Esto nos permite entregar soluciones que no solo funcionan hoy, sino que crecen con tu negocio. Es importante mencionar que esta lista es enumerativa y trabajamos con cualquier tecnología que no esté aquí si es necesaria para resolver el problema particular del cliente."
+    }
+  },
+  "clients": {
+    "title": "Confían en nosotros",
+    "subtitle": "Utilizamos las últimas tecnologías para hacerlo todo más sencillo para:"
+  },
+  "contact": {
+    "title": "Comencemos Tu Proyecto",
+    "subtitle": "¿Listo para transformar tu idea en realidad? Contáctanos y descubre cómo nuestra metodología de previsualización puede hacer la diferencia. Con presencia en Argentina y Estados Unidos, estamos listos para atenderte en ambos países.",
+    "info": {
+      "title": "Consulta Gratuita",
+      "description": "Agenda una reunión sin costo para discutir tu proyecto. Te explicaremos cómo nuestra metodología puede beneficiarte.",
+      "benefits": [
+        "Análisis de requerimientos",
+        "Propuesta personalizada",
+        "Timeline del proyecto"
+      ]
+    },
+    "methods": {
+      "email": {
+        "title": "Email",
+        "value": "info@bshouse.io",
+        "description": "Respuesta en 24 horas"
+      },
+      "phone": {
+        "title": "Teléfonos",
+        "value": "Argentina: +54 11 3656-3300 | USA: +1 786 819-5867",
+        "description": "Atención en ambos países"
+      },
+      "location": {
+        "title": "Oficinas",
+        "value": "Argentina: Av del Libertador 5990, Oficina 403, CABA | USA: 19790 West Dixie Highway, Unit 1130, Miami, FL",
+        "description": "Presencia internacional"
+      }
+    },
+    "international": {
+      "title": "Presencia Internacional",
+      "argentina": {
+        "title": "Argentina",
+        "address": "Av del Libertador 5990, Oficina 403<br>CABA, CP 1428",
+        "phone": "+54 11 3656-3300",
+        "email": "info@bshouse.io"
+      },
+      "usa": {
+        "title": "Estados Unidos",
+        "address": "19790 West Dixie Highway<br>Unit 1130, Miami, FL 33180",
+        "phone": "+1 786 819-5867",
+        "email": "info@bshouse.io"
+      }
+    },
+    "form": {
+      "name": "Nombre completo *",
+      "email": "Email *",
+      "company": "Empresa *",
+      "phone": "Teléfono *",
+      "projectType": "Tipo de proyecto *",
+      "budget": "Presupuesto estimado",
+      "message": "Descripción del proyecto *",
+      "newsletter": "Quiero recibir información sobre nuevas tecnologías y casos de éxito",
+      "submit": "Enviar Consulta",
+      "sending": "Enviando...",
+      "success": "¡Gracias por tu consulta! Te contactaremos pronto.",
+      "error": "Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo.",
+      "validation": {
+        "required": "Este campo es obligatorio",
+        "email": "Por favor ingresa un email válido",
+        "phone": "Por favor ingresa un teléfono válido"
+      },
+      "placeholders": {
+        "name": "Tu nombre completo",
+        "email": "tu@email.com",
+        "company": "Nombre de tu empresa",
+        "phone": "+54 11 1234-5678",
+        "projectType": "Selecciona el tipo de proyecto",
+        "message": "Cuéntanos sobre tu proyecto..."
+      },
+      "options": {
+        "webDevelopment": "Desarrollo Web",
+        "mobileDevelopment": "Desarrollo Móvil",
+        "consulting": "Consultoría",
+        "other": "Otro",
+        "budget": {
+          "placeholder": "Selecciona un rango",
+          "small": "Menos de $10,000",
+          "medium": "$10,000 - $50,000",
+          "large": "$50,000 - $200,000",
+          "enterprise": "Más de $200,000",
+          "discuss": "Discutir presupuesto"
+        }
+      }
+    }
+  }
+} 
