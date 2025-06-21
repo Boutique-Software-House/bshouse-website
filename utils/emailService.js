@@ -127,24 +127,31 @@ export class EmailService {
   }
 
   // Enviar email usando tu propio backend
-  async sendEmailWithBackend(emailData) {
+  async sendEmailWithBackend(formData) {
     try {
       const backendEndpoint = '/api/contact'
+      
+      console.log('Enviando datos a la API:', formData)
       
       const response = await fetch(backendEndpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(emailData)
+        body: JSON.stringify(formData)
       })
+      
+      console.log('Respuesta de la API:', response.status, response.statusText)
       
       if (!response.ok) {
         const errorData = await response.json()
+        console.error('Error de la API:', errorData)
         throw new Error(`HTTP error! status: ${response.status}, message: ${errorData.message || 'Error desconocido'}`)
       }
       
-      return { success: true, data: await response.json() }
+      const result = await response.json()
+      console.log('Resultado exitoso de la API:', result)
+      return { success: true, data: result }
     } catch (error) {
       console.error('Error sending email with backend:', error)
       throw error
@@ -159,14 +166,11 @@ export class EmailService {
       throw new Error('Datos del formulario inválidos')
     }
 
-    // Preparar datos
-    const emailData = this.prepareEmailData(formData)
-
     // Intentar diferentes métodos de envío (API local primero)
     const methods = [
-      () => this.sendEmailWithBackend(emailData),
-      () => this.sendEmailWithEmailJS(emailData),
-      () => this.sendEmailWithFormspree(emailData)
+      () => this.sendEmailWithBackend(formData),
+      () => this.sendEmailWithEmailJS(this.prepareEmailData(formData)),
+      () => this.sendEmailWithFormspree(this.prepareEmailData(formData))
     ]
 
     for (const method of methods) {
@@ -180,7 +184,7 @@ export class EmailService {
 
     // Si todos los métodos fallan, simular envío exitoso para desarrollo
     if (process.env.NODE_ENV === 'development') {
-      console.log('Simulando envío de email en desarrollo:', emailData)
+      console.log('Simulando envío de email en desarrollo:', formData)
       await new Promise(resolve => setTimeout(resolve, 2000))
       return { success: true, data: { message: 'Email simulado en desarrollo' } }
     }
