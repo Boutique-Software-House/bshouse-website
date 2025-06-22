@@ -302,5 +302,34 @@
         }
       }
     }
+  },
+  "footer": {
+    "description": "Transformamos ideas en experiencias digitales que superan expectativas. Nuestra metodología única de previsualización garantiza resultados excepcionales.",
+    "services": "Servicios",
+    "servicesLinks": {
+      "mobile": "Desarrollo Móvil",
+      "web": "Desarrollo Web",
+      "enterprise": "Sistemas Empresariales",
+      "design": "Diseño UX/UI"
+    },
+    "company": "Empresa",
+    "companyLinks": {
+      "methodology": "Metodología",
+      "caseStudies": "Casos de Éxito",
+      "technologies": "Tecnologías",
+      "contact": "Contacto"
+    },
+    "followUs": "Síguenos",
+    "socialLinks": {
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "github": "GitHub"
+    },
+    "copyright": "Todos los derechos reservados.",
+    "legal": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio"
+    }
   }
 } 

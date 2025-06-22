@@ -302,5 +302,34 @@
         }
       }
     }
+  },
+  "footer": {
+    "description": "We transform ideas into digital experiences that exceed expectations. Our unique preview methodology guarantees exceptional results.",
+    "services": "Services",
+    "servicesLinks": {
+      "mobile": "Mobile Development",
+      "web": "Web Development",
+      "enterprise": "Enterprise Systems",
+      "design": "UX/UI Design"
+    },
+    "company": "Company",
+    "companyLinks": {
+      "methodology": "Methodology",
+      "caseStudies": "Case Studies",
+      "technologies": "Technologies",
+      "contact": "Contact"
+    },
+    "followUs": "Follow Us",
+    "socialLinks": {
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "github": "GitHub"
+    },
+    "copyright": "All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
   }
 } 

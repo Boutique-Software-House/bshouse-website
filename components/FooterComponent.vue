@@ -8,49 +8,48 @@
             <h3>Boutique Software House</h3>
           </div>
           <p class="footer-description">
-            Transformamos ideas en experiencias digitales que superan expectativas. 
-            Nuestra metodología única de previsualización garantiza resultados excepcionales.
+            {{ t('footer.description') }}
           </p>
         </div>
         
         <div class="footer-section">
-          <h4>Servicios</h4>
+          <h4>{{ t('footer.services') }}</h4>
           <ul class="footer-links">
-            <li><a href="#services">Desarrollo Móvil</a></li>
-            <li><a href="#services">Desarrollo Web</a></li>
-            <li><a href="#services">Sistemas Empresariales</a></li>
-            <li><a href="#services">Diseño UX/UI</a></li>
+            <li><a href="#services">{{ t('footer.servicesLinks.mobile') }}</a></li>
+            <li><a href="#services">{{ t('footer.servicesLinks.web') }}</a></li>
+            <li><a href="#services">{{ t('footer.servicesLinks.enterprise') }}</a></li>
+            <li><a href="#services">{{ t('footer.servicesLinks.design') }}</a></li>
           </ul>
         </div>
         
         <div class="footer-section">
-          <h4>Empresa</h4>
+          <h4>{{ t('footer.company') }}</h4>
           <ul class="footer-links">
-            <li><a href="#methodology">Metodología</a></li>
-            <li><a href="#case-studies">Casos de Éxito</a></li>
-            <li><a href="#technologies">Tecnologías</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#methodology">{{ t('footer.companyLinks.methodology') }}</a></li>
+            <li><a href="#case-studies">{{ t('footer.companyLinks.caseStudies') }}</a></li>
+            <li><a href="#technologies">{{ t('footer.companyLinks.technologies') }}</a></li>
+            <li><a href="#contact">{{ t('footer.companyLinks.contact') }}</a></li>
           </ul>
         </div>
         
         <div class="footer-section">
-          <h4>Síguenos</h4>
+          <h4>{{ t('footer.followUs') }}</h4>
           <div class="social-links">
             <a href="https://linkedin.com/company/boutique-software-house" target="_blank" rel="noopener" class="social-link">
               <i class="lab la-linkedin"></i>
-              <span>LinkedIn</span>
+              <span>{{ t('footer.socialLinks.linkedin') }}</span>
             </a>
             <a href="https://twitter.com/bshouse" target="_blank" rel="noopener" class="social-link">
               <i class="lab la-twitter"></i>
-              <span>Twitter</span>
+              <span>{{ t('footer.socialLinks.twitter') }}</span>
             </a>
             <a href="https://instagram.com/boutiquesoftwarehouse" target="_blank" rel="noopener" class="social-link">
               <i class="lab la-instagram"></i>
-              <span>Instagram</span>
+              <span>{{ t('footer.socialLinks.instagram') }}</span>
             </a>
             <a href="https://github.com/boutique-software-house" target="_blank" rel="noopener" class="social-link">
               <i class="lab la-github"></i>
-              <span>GitHub</span>
+              <span>{{ t('footer.socialLinks.github') }}</span>
             </a>
           </div>
         </div>
@@ -58,10 +57,10 @@
       
       <div class="footer-bottom">
         <div class="footer-bottom-content">
-          <p>&copy; {{ new Date().getFullYear() }} Boutique Software House. Todos los derechos reservados.</p>
+          <p>&copy; {{ new Date().getFullYear() }} Boutique Software House. {{ t('footer.copyright') }}</p>
           <div class="footer-bottom-links">
-            <a href="/privacy">Política de Privacidad</a>
-            <a href="/terms">Términos de Servicio</a>
+            <a href="/privacy">{{ t('footer.legal.privacy') }}</a>
+            <a href="/terms">{{ t('footer.legal.terms') }}</a>
           </div>
         </div>
       </div>
@@ -70,7 +69,9 @@
 </template>
 
 <script setup>
-// No necesitamos lógica adicional por ahora
+import { useI18n } from '~/composables/useI18n'
+
+const { t } = useI18n()
 </script>
 
 <style scoped>

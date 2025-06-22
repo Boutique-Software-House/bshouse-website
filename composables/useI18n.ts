@@ -1,8 +1,6 @@
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import es from '~/locales/es.json'
 import en from '~/locales/en.json'
-
-const currentLocale = ref('es')
 
 const translations = {
   es,
@@ -11,12 +9,29 @@ const translations = {
 
 type TranslationKey = keyof typeof es
 
+// Estado global y reactivo para el idioma
+const locale = ref(getInitialLocale())
+
+// Función para obtener el idioma inicial
+function getInitialLocale(): string {
+  if (import.meta.client) {
+    const savedLocale = localStorage.getItem('locale')
+    if (savedLocale && savedLocale in translations) {
+      return savedLocale
+    }
+  }
+  return 'es'
+}
+
 export const useI18n = () => {
-  const locale = currentLocale
+  // Computed para asegurar que siempre tengamos un valor válido
+  const currentLocale = computed(() => {
+    return locale.value in translations ? locale.value : 'es'
+  })
   
   const t = (key: string): string => {
     const keys = key.split('.')
-    let value: any = translations[locale.value as keyof typeof translations]
+    let value: any = translations[currentLocale.value as keyof typeof translations]
     
     for (const k of keys) {
       if (value && typeof value === 'object' && k in value) {
@@ -32,31 +47,23 @@ export const useI18n = () => {
   const setLocale = (newLocale: string) => {
     if (newLocale in translations) {
       locale.value = newLocale
-      // Save to localStorage
-      if (process.client) {
+      // Guardar en localStorage
+      if (import.meta.client) {
         localStorage.setItem('locale', newLocale)
       }
     }
   }
   
-  const getLocale = () => locale.value
+  const getLocale = () => currentLocale.value
   
   const getAvailableLocales = () => [
     { code: 'es', name: 'Español', flag: '🇪🇸' },
     { code: 'en', name: 'English', flag: '🇺🇸' }
   ]
   
-  // Initialize locale from localStorage
-  if (process.client) {
-    const savedLocale = localStorage.getItem('locale')
-    if (savedLocale && savedLocale in translations) {
-      locale.value = savedLocale
-    }
-  }
-  
   return {
     t,
-    locale,
+    locale: currentLocale,
     setLocale,
     getLocale,
     getAvailableLocales
