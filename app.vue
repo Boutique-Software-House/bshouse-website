@@ -1,47 +1,10 @@
 <template>
-  <div id="principal">
-    <header-component />
-    <div class="main-content">
-      <divider-component />
-      <div class="transition">
-        <!-- Hero Section con propuesta de valor -->
-        <hero-section />
-        <divider-component />
-        
-        <!-- Metodología -->
-        <methodology-section />
-        <divider-component />
-        
-        <!-- Servicios -->
-        <services-section />
-        <divider-component />
-        
-        <!-- Clientes existentes -->
-        <clients-component />
-        <divider-component />
-        
-        <!-- Casos de éxito -->
-        <!-- <case-studies-section />
-        <divider-component /> -->
-        
-        <!-- Tecnologías -->
-        <technologies-section />
-        <divider-component />
-        
-        <!-- Contacto -->
-        <contact-section />
-      </div>
-    </div>
-    <footer-component />
-  </div>
+  <NuxtPage />
+  <CookieBanner />
 </template>
 
-<script setup lang="ts">
-const { gtag, initialize } = useGtag()
-initialize()
-
-// Inicializar animaciones de scroll
-useScrollAnimations()
+<script setup>
+import CookieBanner from '~/components/CookieBanner.vue'
 </script>
 
 <style>
@@ -58,7 +21,6 @@ body {
     transform: translateY(50px);
     opacity: 0;
   }
-
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -72,7 +34,6 @@ body {
     transform: translateY(50px);
     opacity: 0;
   }
-
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -93,10 +54,9 @@ body {
 
 .main-content {
   margin: 0px 80px 35px;
-  padding-top: 120px; /* Espacio para el header fijo */
+  padding-top: 120px;
 }
 
-/* Variables CSS para consistencia */
 :root {
   --primary-color: #000000;
   --secondary-color: #333333;
@@ -113,7 +73,6 @@ body {
   --transition: all 0.3s ease;
 }
 
-/* Clases de utilidad */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -186,23 +145,14 @@ body {
     margin: 0px 20px 35px;
     padding-top: 100px;
   }
-  
   .section {
     padding: 40px 0;
   }
-  
   .section-title {
     font-size: 1.5rem;
   }
-  
   .container {
     padding: 0 16px;
-  }
-}
-
-@media (max-width: 175px) {
-  .main-content {
-    margin: 0px 5px 35px;
   }
 }
 </style>

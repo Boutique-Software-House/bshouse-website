@@ -3,9 +3,10 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-section">
-          <div class="footer-logo">
-            <img src="/images/logo.jpeg" alt="Boutique Software House" class="logo-img">
-            <h3>Boutique Software House</h3>
+          <div class="footer-logo animated-icons">
+            <span class="footer-icon diamond"><i class="las la-gem"></i></span>
+            <span class="footer-icon code"><i class="las la-code"></i></span>
+            <span class="footer-icon home"><i class="las la-home"></i></span>
           </div>
           <p class="footer-description">
             {{ t('footer.description') }}

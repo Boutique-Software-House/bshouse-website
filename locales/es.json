@@ -331,5 +331,43 @@
       "privacy": "Política de Privacidad",
       "terms": "Términos de Servicio"
     }
+  },
+  "terms": {
+    "title": "Términos del Servicio",
+    "intro": "Los siguientes Términos y Condiciones rigen el uso de este sitio web y los servicios ofrecidos. Al utilizar nuestro sitio, aceptas estar legalmente obligado por estos términos y cumplir con todas las leyes y regulaciones aplicables.",
+    "copyrightTitle": "Aviso de derechos de autor y marca registrada",
+    "copyright": "Boutique Software House posee los derechos de autor de todo el material disponible en este sitio, salvo que se indique lo contrario. Todos los derechos están reservados y el contenido no puede reproducirse, descargarse, difundirse ni transferirse, salvo consentimiento previo por escrito. Puedes descargar páginas para uso personal, pero no duplicar, modificar o distribuir el material para otros fines sin autorización.",
+    "disclaimerTitle": "Aviso legal general y exoneración de responsabilidad",
+    "disclaimer": "El sitio y la información contenida se ofrecen 'tal cual'. Boutique Software House no garantiza la exactitud, integridad o actualidad de la información. El uso de la información es voluntario y bajo tu propio riesgo. No asumimos responsabilidad por daños derivados del uso de la información aquí contenida o en sitios enlazados.",
+    "externalLinksTitle": "Enlaces externos",
+    "externalLinks": "Este sitio puede contener enlaces a sitios web externos. Boutique Software House no controla ni garantiza la exactitud o integridad de la información en dichos sitios y no se responsabiliza por su contenido.",
+    "severabilityTitle": "Divisibilidad",
+    "severability": "La invalidez de alguna disposición de estos términos no afectará las disposiciones restantes, que seguirán vigentes.",
+    "contactTitle": "Contacto",
+    "contact": "Si tienes preguntas sobre estos términos, contáctanos en info@bshouse.io.",
+    "jurisdictionTitle": "Jurisdicción y responsabilidad legal",
+    "jurisdiction": "Este sitio y los servicios de Boutique Software House son operados en Argentina por Syntagma S.A. y en Estados Unidos por Boutique Software House LLC. El uso del sitio y los servicios implica la aceptación de estos términos bajo la jurisdicción correspondiente a tu país de residencia o contratación."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "responsableTitle": "Responsable de los datos",
+    "responsable": "Los servicios de Boutique Software House son provistos en Argentina por Syntagma S.A. (Av del Libertador 5990, Oficina 403, CABA, Argentina) y en Estados Unidos por Boutique Software House LLC (19790 West Dixie Highway, Unit 1130, Miami, FL 33180, USA). Dependiendo de tu ubicación y el servicio contratado, la responsable del tratamiento de tus datos será la correspondiente a tu país.",
+    "collectionTitle": "Recolección de datos",
+    "collection": "Para utilizar nuestro sitio web y contratar nuestros servicios, es posible que debas proporcionarnos algunos datos personales. Al aceptar esta política, consientes que recopilemos y procesemos tus datos. No es obligatorio que nos brindes tus datos, pero son necesarios para acceder a nuestros servicios.",
+    "purposeTitle": "Finalidad del uso de los datos",
+    "purpose": "Recopilamos tus datos personales para: brindar nuestros servicios, responder tus consultas, mejorar nuestro sitio web y servicios, enviarte información sobre novedades y actualizaciones, y realizar encuestas o solicitar tu opinión.",
+    "storageTitle": "Almacenamiento de datos",
+    "storage": "Conservamos tus datos personales el tiempo necesario para cumplir con los fines para los que fueron recopilados. Algunos datos pueden ser almacenados o procesados por terceros en servidores fuera de Argentina o USA. Nos aseguramos de que existan protecciones adecuadas. Al aceptar esta política, consientes expresamente la transferencia internacional de tus datos.",
+    "rightsTitle": "Derechos de acceso, rectificación y supresión",
+    "rights": "Tienes derecho a acceder a tus datos personales gratuitamente cada 6 meses, solicitar la corrección o actualización de tus datos, retirar tu consentimiento para el uso de tus datos y solicitar la eliminación de tus datos. Puedes ejercer estos derechos enviando un email a info@bshouse.io. Por favor, verifica tu identidad en cada solicitud. La Agencia de Acceso a la Información Pública es la autoridad de aplicación de la Ley 25.326.",
+    "securityTitle": "Seguridad",
+    "security": "Implementamos medidas técnicas y organizativas para proteger tus datos personales contra manipulación, pérdida, destrucción o acceso no autorizado.",
+    "contactTitle": "Contacto",
+    "contact": "Si tienes preguntas sobre esta política, contáctanos en info@bshouse.io."
+  },
+"cookies": {
+    "message": "Este sitio utiliza cookies para mejorar tu experiencia. Al continuar navegando aceptas nuestra",
+    "link": "Política de Privacidad",
+    "accept": "Aceptar"
   }
 } 

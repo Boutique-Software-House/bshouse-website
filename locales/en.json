@@ -331,5 +331,43 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"
     }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "intro": "The following Terms and Conditions govern the use of this website and the services offered. By using our site, you agree to be legally bound by these terms and comply with all applicable laws and regulations.",
+    "copyrightTitle": "Copyright and Trademark Notice",
+    "copyright": "Boutique Software House owns the copyright to all material available on this site, unless otherwise indicated. All rights reserved. Content may not be reproduced, downloaded, distributed, or transferred without prior written consent. You may download pages for personal use, but not duplicate, modify, or distribute material for other purposes without authorization.",
+    "disclaimerTitle": "General Disclaimer and Liability Waiver",
+    "disclaimer": "The site and the information contained are provided 'as is'. Boutique Software House does not guarantee the accuracy, completeness, or timeliness of the information. Use of the information is voluntary and at your own risk. We assume no responsibility for damages arising from the use of the information here or on linked sites.",
+    "externalLinksTitle": "External Links",
+    "externalLinks": "This site may contain links to external websites. Boutique Software House does not control or guarantee the accuracy or completeness of information on such sites and is not responsible for their content.",
+    "severabilityTitle": "Severability",
+    "severability": "The invalidity of any provision of these terms does not affect the remaining provisions, which will remain in effect.",
+    "contactTitle": "Contact",
+    "contact": "If you have questions about these terms, contact us at info@bshouse.io.",
+    "jurisdictionTitle": "Jurisdiction and Legal Responsibility",
+    "jurisdiction": "This site and the services of Boutique Software House are operated in Argentina by Syntagma S.A. and in the United States by Boutique Software House LLC. Use of the site and services implies acceptance of these terms under the jurisdiction corresponding to your country of residence or contracting."
+  },
+  "cookies": {
+    "message": "This site uses cookies to improve your experience. By continuing to browse, you accept our",
+    "link": "Privacy Policy",
+    "accept": "Accept"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "responsableTitle": "Data Controller",
+    "responsable": "Boutique Software House services are provided in Argentina by Syntagma S.A. (Av del Libertador 5990, Office 403, CABA, Argentina) and in the United States by Boutique Software House LLC (19790 West Dixie Highway, Unit 1130, Miami, FL 33180, USA). Depending on your location and the service contracted, the data controller will be the entity corresponding to your country.",
+    "collectionTitle": "Data Collection",
+    "collection": "To use our website and hire our services, you may need to provide us with some personal data. By accepting this policy, you consent to our collection and processing of your data. Providing your data is not mandatory, but it is necessary to access our services.",
+    "purposeTitle": "Purpose of Data Use",
+    "purpose": "We collect your personal data to: provide our services, respond to your inquiries, improve our website and services, send you information about updates and news, and conduct surveys or request your feedback.",
+    "storageTitle": "Data Storage",
+    "storage": "We retain your personal data for as long as necessary to fulfill the purposes for which it was collected. Some data may be stored or processed by third parties on servers outside Argentina or the USA. We ensure that appropriate protections are in place. By accepting this policy, you expressly consent to the international transfer of your data.",
+    "rightsTitle": "Rights of Access, Rectification, and Deletion",
+    "rights": "You have the right to access your personal data free of charge every 6 months, request the correction or update of your data, withdraw your consent for the use of your data, and request the deletion of your data. You can exercise these rights by sending an email to info@bshouse.io. Please verify your identity in each request. The Agency for Access to Public Information is the enforcement authority for Law 25.326.",
+    "securityTitle": "Security",
+    "security": "We implement technical and organizational measures to protect your personal data against manipulation, loss, destruction, or unauthorized access.",
+    "contactTitle": "Contact",
+    "contact": "If you have questions about this policy, contact us at info@bshouse.io."
   }
 } 

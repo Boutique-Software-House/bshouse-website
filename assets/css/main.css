@@ -1673,4 +1673,41 @@ html {
 .methodology-icon-link i {
   font-size: 16px;
   color: white;
+}
+
+.footer-section h4 {
+  color: #e0e6ed !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-logo.animated-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+}
+
+.footer-icon {
+  font-size: 2.2rem;
+  color: #e0e6ed !important;
+  animation: floatFooter 2.5s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon.code {
+  animation-delay: 0.5s;
+}
+.footer-icon.home {
+  animation-delay: 1s;
+}
+
+@keyframes floatFooter {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 } 

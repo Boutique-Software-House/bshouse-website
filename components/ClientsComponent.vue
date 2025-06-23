@@ -33,13 +33,13 @@
           <img src="/images/buenos_aires_ciudad.png" alt="Buenos Aires Ciudad" />
         </a>
         <a href="https://www.adecco.com/" target="_blank" rel="noopener noreferrer" class="client-item">
-          <img src="/images/adecco.png" alt="ADECCO" />
+          <img src="/images/adecco.png" alt="ADECCO" class="logo-small" />
         </a>
         <a href="https://www.arcor.com/" target="_blank" rel="noopener noreferrer" class="client-item">
           <img src="/images/arcor.png" alt="Arcor" />
         </a>
         <a href="https://www.ingredion.com/" target="_blank" rel="noopener noreferrer" class="client-item">
-          <img src="/images/ingredion.png" alt="Ingredion" />
+          <img src="/images/ingredion.png" alt="Ingredion" class="logo-small" />
         </a>
         
         <!-- Cuarta fila: Nuevos clientes -->
@@ -273,6 +273,15 @@ const { t } = useI18n()
   .dealer-name {
     font-size: 0.75rem;
   }
+}
+
+.logo-small {
+  max-width: 70% !important;
+  max-height: 56px !important;
+  width: auto !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
 }
 </style>
 
