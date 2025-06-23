@@ -25,17 +25,6 @@
               </div>
               <div class="tech-info">
                 <h4 class="tech-name">{{ tech.name }}</h4>
-                <div class="tech-level">
-                  <span class="level-label">{{ t('technologies.experience') }}:</span>
-                  <div class="level-bars">
-                    <span 
-                      v-for="i in 5" 
-                      :key="i" 
-                      class="level-bar"
-                      :class="{ active: i <= tech.experience }"
-                    ></span>
-                  </div>
-                </div>
                 <p class="tech-description">{{ tech.description }}</p>
               </div>
             </div>
