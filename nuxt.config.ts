@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 
   gtag: {
     enabled: true,
-    id: "GTM-WG4LCTF7",
+    id: "G-45ZCVR2RR8",
     config: {
       page_title: "Boutique Software House - Metodología de Prototipado",
     },
