@@ -158,6 +158,7 @@ const processSteps = computed(() => [
   align-items: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
+  flex-shrink: 0;
 }
 
 .step-icon {
@@ -193,12 +194,15 @@ const processSteps = computed(() => [
   font-weight: 300;
   font-size: 1rem;
   flex-grow: 1;
+  min-height: 0;
 }
 
 .step-benefits {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  flex-shrink: 0;
+  margin-top: auto;
 }
 
 .benefit {
