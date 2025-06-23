@@ -11,6 +11,7 @@
   --border-color: #e0e0e0;
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.1);
   --border-radius: 4px;
   --transition: all 0.3s ease;
   
@@ -414,62 +415,84 @@ body {
 
 .hero-animation {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 340px;
+  height: 340px;
+  margin: 0 auto;
 }
 
 .floating-card {
   position: absolute;
+  width: 110px;
+  height: 110px;
   background: white;
-  border-radius: 12px;
-  padding: 1rem;
+  border-radius: 16px;
+  padding: 1.2rem 0.5rem;
   box-shadow: var(--shadow-md);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
-  min-width: 100px;
   transition: all 0.4s var(--ease-out);
   border: 1px solid var(--border-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.floating-card:hover {
+  background: var(--primary-color);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.floating-card:hover i {
+  color: white;
+}
+
+.floating-card:hover span {
+  color: white;
 }
 
 .floating-card i {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: var(--primary-color);
 }
 
 .floating-card span {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 500;
   color: var(--text-primary);
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  word-break: break-word;
+  line-height: 1.2;
 }
 
 .card-1 {
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 0);
   animation: float-1 6s ease-in-out infinite;
 }
 
 .card-2 {
   top: 50%;
   right: 0;
-  transform: translateY(-50%);
+  transform: translate(0, -50%);
   animation: float-2 6s ease-in-out infinite;
 }
 
 .card-3 {
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 0);
   animation: float-3 6s ease-in-out infinite;
 }
 
 .card-4 {
   top: 50%;
   left: 0;
-  transform: translateY(-50%);
+  transform: translate(0, -50%);
   animation: float-4 6s ease-in-out infinite;
 }
 
@@ -1625,4 +1648,29 @@ body {
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
+}
+
+.methodology-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.methodology-icon-link:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.methodology-icon-link i {
+  font-size: 16px;
+  color: white;
 } 

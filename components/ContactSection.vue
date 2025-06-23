@@ -765,7 +765,8 @@ const submitForm = handleSubmit(async (values) => {
 
 .country-link i {
   color: var(--primary-color);
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: bold;
   flex-shrink: 0;
 }
 
@@ -870,5 +871,18 @@ const submitForm = handleSubmit(async (values) => {
   background: var(--primary-color);
   transform: none;
   box-shadow: none;
+}
+
+.form-checkbox {
+  margin-bottom: 2rem;
+}
+
+.section-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 </style> 

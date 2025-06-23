@@ -28,22 +28,22 @@
         
         <div class="hero-visual animate-right">
           <div class="hero-animation">
-            <div class="floating-card card-1">
-              <i class="las la-mobile-alt"></i>
-              <span>Mobile App</span>
-            </div>
-            <div class="floating-card card-2">
-              <i class="las la-desktop"></i>
-              <span>Web App</span>
-            </div>
-            <div class="floating-card card-3">
-              <i class="las la-cogs"></i>
-              <span>System</span>
-            </div>
-            <div class="floating-card card-4">
-              <i class="las la-palette"></i>
-              <span>Design</span>
-            </div>
+            <a href="#methodology" class="floating-card card-1">
+              <i class="las la-lightbulb"></i>
+              <span>{{ t('methodology.steps.discovery.title') }}</span>
+            </a>
+            <a href="#methodology" class="floating-card card-2">
+              <i class="las la-pencil-ruler"></i>
+              <span>{{ t('methodology.steps.design.title') }}</span>
+            </a>
+            <a href="#methodology" class="floating-card card-3">
+              <i class="las la-code"></i>
+              <span>{{ t('methodology.steps.development.title') }}</span>
+            </a>
+            <a href="#methodology" class="floating-card card-4">
+              <i class="las la-rocket"></i>
+              <span>{{ t('methodology.steps.deployment.title') }}</span>
+            </a>
           </div>
         </div>
       </div>
