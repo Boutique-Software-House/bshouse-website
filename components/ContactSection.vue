@@ -681,17 +681,18 @@ const submitForm = handleSubmit(async (values) => {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--primary-color);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 25px;
-  font-weight: 500;
-  margin-bottom: 2rem;
+  color: var(--text-primary);
+  padding: 0.5rem 0;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  border-bottom: 2px solid var(--primary-color);
 }
 
 .presence-badge i {
-  font-size: 16px;
+  font-size: 18px;
+  color: var(--primary-color);
 }
 
 .countries-grid {

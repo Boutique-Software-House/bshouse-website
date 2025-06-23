@@ -46,7 +46,7 @@
         <ul class="nav-menu">
           <li><a href="#methodology" class="nav-link">{{ t('nav.methodology') }}</a></li>
           <li><a href="#services" class="nav-link">{{ t('nav.services') }}</a></li>
-          <li><a href="#case-studies" class="nav-link">{{ t('nav.caseStudies') }}</a></li>
+          <!-- <li><a href="#case-studies" class="nav-link">{{ t('nav.caseStudies') }}</a></li> -->
           <li><a href="#technologies" class="nav-link">{{ t('nav.technologies') }}</a></li>
           <li><a href="#contact" class="nav-link">{{ t('nav.contact') }}</a></li>
         </ul>
@@ -73,7 +73,7 @@
         <ul class="mobile-nav-menu">
           <li><a href="#methodology" @click="closeMobileMenu">{{ t('nav.methodology') }}</a></li>
           <li><a href="#services" @click="closeMobileMenu">{{ t('nav.services') }}</a></li>
-          <li><a href="#case-studies" @click="closeMobileMenu">{{ t('nav.caseStudies') }}</a></li>
+          <!-- <li><a href="#case-studies" @click="closeMobileMenu">{{ t('nav.caseStudies') }}</a></li> -->
           <li><a href="#technologies" @click="closeMobileMenu">{{ t('nav.technologies') }}</a></li>
           <li><a href="#contact" @click="closeMobileMenu">{{ t('nav.contact') }}</a></li>
         </ul>
@@ -91,6 +91,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useI18n } from '~/composables/useI18n'
 
 const { t } = useI18n()
 
